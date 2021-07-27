@@ -1,7 +1,8 @@
-from flask import flask 
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+
+@app.route('/')
 def home():
-    return "Home Page Route"
+    return app.send_static_file("index.html")
