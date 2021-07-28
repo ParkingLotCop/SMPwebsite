@@ -10,6 +10,10 @@ def index():
 @app.route("/ranks")
 def ranks():
     return render_template("ranks.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
     
 #run app
 if __name__ == "__main__":
