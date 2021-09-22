@@ -1,2 +1,2 @@
 # SMPwebsite
-a website wdy want from me?
+Website for an smp.
